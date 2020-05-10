@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "polling": "node polling/server/server.js",
+    "push": "node push/server/server.js",
+    "push-redis": "node push-redis/server/server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "redis": "^3.0.2",
+    "ws": "^7.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

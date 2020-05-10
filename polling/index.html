@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Demo: Session Invalidation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"
+    />
+    <script src="main.js"></script>
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section">
+      <div
+        id="loggedOutNotification"
+        class="notification is-danger is-light hidden"
+      >
+        You have been logged out because you logged in from another browser or
+        device. If this was not you, please contact <a>support</a>.
+      </div>
+
+      <div>
+        <button id="buttonLogIn" class="button is-primary is-light">
+          Log In
+        </button>
+        <p id="status"></p>
+      </div>
+    </section>
+  </body>
+</html>
