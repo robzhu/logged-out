@@ -37,4 +37,14 @@ npm run push-redis
 # open push-redis/index.html in two browser tabs
 ```
 
+## Native client (.net)
+
+You will need .net core 3.1.
+
+```
+cd dotnet-client && dotnet restore
+# make sure the server is running
+dotnet run
+```
+
 See the [blog post](https://updateloop.dev/lets-build-you-have-been-logged-out/) for more a more detailed explanation.
