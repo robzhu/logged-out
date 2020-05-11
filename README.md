@@ -1,5 +1,7 @@
 # Real-time Session Invalidation
 
+![alt text](/images/session_logged_out.gif)
+
 Companion [blog post](https://updateloop.dev/lets-build-you-have-been-logged-out/)
 
 ## Clone & npm install
